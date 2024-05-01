@@ -10,10 +10,7 @@
  * 
  * Solution 
  * DP solution to this problem
- * if( input[i...j] belongs in dictionary) T[i][j] = i
- * else{
- *     T[i][j] = k if T[i][k-1] != -1 && T[k][j] != -1
- *     
+ *      
  * Test cases
  * 1) String where entire string is in dictionary
  * 2) String which cannot be split into words which are in dictionary
